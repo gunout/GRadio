@@ -6,13 +6,13 @@ GLEAPHE RADIO ON DESKTOP UBUNTU
 
 2 . CREATE PLAY BUTTON 
 
-  chmod +x play.py
-  python play.py
+      chmod +x play.py
+      python play.py
 
 3 . RUN APPLICATION 
 
-  chmod +x gl.py
-  python gl.py
+      chmod +x gl.py
+      python gl.py
 
 
 By Gleaphe 2025 
