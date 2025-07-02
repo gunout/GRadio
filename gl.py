@@ -25,7 +25,7 @@ class SkyrockRadioApp(Gtk.Window):
 
         # Liste des stations Skyrock (URL simplifiées)
         self.stations = {
-            "Gleaphe": "https://102.35.99.37/stream",
+            "Gleaphe": "https://gleaphe.duckdns.org/stream",
             
         }
 
