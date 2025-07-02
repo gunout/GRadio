@@ -12,7 +12,7 @@ gi.require_version('Gtk', '3.0')
 gi.require_version('Notify', '0.7')
 from gi.repository import Gtk, GLib, Notify, Gdk
 
-class SkyrockRadioApp(Gtk.Window):
+class GleapheRadioApp(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title="Gleaphe Radio")
         self.set_default_size(150, 100)  # Taille de la fenêtre
@@ -23,7 +23,7 @@ class SkyrockRadioApp(Gtk.Window):
         # Initialiser les notifications système
         Notify.init("Gleaphe Radio")
 
-        # Liste des stations Skyrock (URL simplifiées)
+        # Liste des stations Gleaphe (URL simplifiées)
         self.stations = {
             "Gleaphe": "https://gleaphe.duckdns.org/stream",
             
