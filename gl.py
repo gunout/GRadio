@@ -298,7 +298,7 @@ class GleapheRadioApp(Gtk.Window):
         notification.show()
 
 # Lancer l'application
-win = SkyrockRadioApp()
+win = GleapheRadioApp()
 win.connect("destroy", Gtk.main_quit)
 win.show_all()
 Gtk.main()
